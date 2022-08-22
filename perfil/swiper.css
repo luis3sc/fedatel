@@ -1,0 +1,26 @@
+
+/** Swiper Slider **/
+.swiper-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper-slide img{
+ height: 100%;
+}
+.swiper-hero-progress {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 0;
+    height: 3px;
+    background: var(--primario);
+    z-index: 1;
+}
+/** Swiper Slider **/
